@@ -74,7 +74,7 @@ font-family: 'Roboto', sans-serif;
     flex-direction: column;
     /* justify-content: space-between; */
      margin-bottom: auto;
-    gap: 250px;
+    gap: 200px;
     align-items: flex-start;
 }
 
@@ -226,7 +226,6 @@ header nav a:focus {
 .js-close-menu:hover {
     fill: currentColor;
     border: 1px solid currentColor;
-    border-radius: 100%;
 }
 
 /* Order Button - Icons and text */
@@ -377,11 +376,13 @@ div .list{
     padding: 24px 0; 
 }
 
+
+
 .team-socials{
     display: flex;
+    align-items: center;
     justify-content: space-around;
     /* padding: 36px; */
-
 }
 
 
@@ -838,16 +839,46 @@ flex-direction: column;
         display: inline-block;
     }
 
-    .mobile-contact {
-        color: var(--NAVY-BLUE);
+    .mobile-link-2 {
+        font-size: 20px;
         text-decoration: none;
+        font-weight: 700;
+        color: var(--NAVY-BLUE);
+        margin-bottom: 40px;
         display: inline-block;
-        margin-bottom: 48px;
+    }
+
+
+    .mobile-contact {
+        font-size: 20px;
+        text-decoration: none;
+        font-weight: 700;
+        color: var(--NAVY-BLUE);
+        margin-bottom: 40px;
+        display: inline-block;
     }
 
     .mobile-link:hover,
     .mobile-active:hover {
         color: var(--OCEAN);
+    }
+
+    .mobile-link-2:hover,
+    .mobile-contact:hover {
+        color: var(--OCEAN);
+        font-size: 36px;
+
+    }
+
+    .mobile-team-socials{
+        display: flex;
+        gap: 28px;
+        align-items: center;
+        justify-content: flex-start;
+        
+        
+        /* padding: 36px; */
+
     }
 
 
