@@ -73,7 +73,7 @@ font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     /* justify-content: space-between; */
-    margin-bottom: auto;
+     margin-bottom: auto;
     gap: 340px;
     align-items: flex-start;
 }
@@ -832,7 +832,8 @@ flex-direction: column;
         margin-bottom: 48px;
     }
 
-    .mobile-link.mobile-active {
+    .mobile-link:hover,
+    .mobile-active:hover {
         color: var(--OCEAN);
     }
 
