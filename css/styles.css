@@ -237,6 +237,7 @@ header nav a:focus {
     
 }
 
+
 .service-label:nth-child(1){
     margin-top: 50px;
 
@@ -246,6 +247,7 @@ header nav a:focus {
     text-align: left;
     margin-bottom: 8px;
 }
+
 
 .service-input{
     padding: 14px 40px;
@@ -375,7 +377,7 @@ div .list{
 .team-socials{
     display: flex;
     justify-content: space-around;
-    padding: 36px;
+    /* padding: 36px; */
 
 }
 
@@ -648,6 +650,7 @@ text-align: left;
     letter-spacing: 0.02em;
     text-align: center;
 }
+
 
 .input-sub {
     border: 2px solid white;
