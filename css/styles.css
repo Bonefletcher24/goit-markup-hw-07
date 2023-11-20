@@ -550,7 +550,7 @@ flex-basis: (100% / 2 - 30px);
 footer .logo {
     color: var(--CLOUD);
     padding-left: 0px;
-    padding-right: 150px;
+    /* padding-right: 150px; */
 }
 
 footer .logo{
@@ -763,6 +763,11 @@ flex-direction: column;
     }
 } */
 
+@media (max-width: 1199px) {
+    .doing-team-h2 {
+        display: none;
+    }
+}
 
 @media (min-width: 1200px) {
 
@@ -796,6 +801,8 @@ flex-direction: column;
     .desktop-nav{
         display: none;
     }
+
+
 
     .mobile-menu.is-open {
         transform: translateX(0);
