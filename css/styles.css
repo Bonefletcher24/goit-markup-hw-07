@@ -219,11 +219,14 @@ header nav a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: absolute;
     
 }
-.modal-close-btn:hover {
+.modal-close-btn:hover,
+.js-close-menu:hover {
     fill: currentColor;
     border: 1px solid currentColor;
+    border-radius: 100%;
 }
 
 /* Order Button - Icons and text */
