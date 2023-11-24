@@ -96,9 +96,9 @@ position: relative;
     justify-content: space-around;
 }
 
-.logo {
+/* .logo {
     margin-right: 76px;
-}
+} */
 
 
 .active {
@@ -222,6 +222,7 @@ header nav a:focus {
     align-items: center;
     justify-content: center;
     position: absolute;
+    right: 30px;
     
 }
 .modal-close-btn:hover,
@@ -565,11 +566,11 @@ footer .logo {
     /* padding-right: 150px; */
 }
 
-footer .logo{
+/* footer .logo{
     margin-left: 220px;
     
 
-}
+} */
 
 .footer-color {
     display: flex;
@@ -594,7 +595,7 @@ footer .logo{
 }
 
 .footer-subscribe-text{
-    text-align: left;
+    text-align: center;
 }
 
 .footer-logo{
@@ -660,7 +661,7 @@ text-align: left;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
-    text-align: left;
+    text-align: center;
 }
 
 
@@ -843,7 +844,7 @@ flex-direction: column;
     .mobile-menu{
         display: block;
         height: 100vh;
-        width: 100vh;
+        width: 100%;
         position: fixed;
         background-color: white;
         transform: translateX(100%);
