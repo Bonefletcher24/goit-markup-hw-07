@@ -37,6 +37,7 @@ font-family: 'Roboto', sans-serif;
     
 }
 
+
 .logo-contacts {
     color: var(--NAVY-BLUE, #2E2F42);
     text-decoration: none;
@@ -74,7 +75,7 @@ font-family: 'Roboto', sans-serif;
     flex-direction: column;
     /* justify-content: space-between; */
      margin-bottom: auto;
-    /* gap: 200px; */
+    gap: 100px;
     align-items: flex-start;
 }
 
@@ -98,6 +99,7 @@ position: relative;
 .logo {
     margin-right: 76px;
 }
+
 
 .active {
     color: var(--OCEAN);
@@ -209,8 +211,8 @@ header nav a:focus {
     border-radius: 100%;
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: white;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     color: var(--OCEAN);
     margin-left: auto;
     display: block;
@@ -411,8 +413,12 @@ display: block;
 width: 100%;
 }
 
-.team-bg li{
+.team-bg{
     background-color: var(--CLOUD);
+   padding-top: 150px;
+   padding-left: 35px;
+   padding-right: 35px;
+   padding-bottom: 150px;
 }
 
 .team-captions {
@@ -597,6 +603,11 @@ footer .logo{
     margin: 0 auto;
 }
 
+.footer-logo a{
+    padding-right: 290px;
+}
+
+
 
 .footer-icons{
     display: flex;
@@ -652,7 +663,7 @@ text-align: left;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
-    text-align: center;
+    text-align: left;
 }
 
 
@@ -738,6 +749,10 @@ text-align: left;
         display: none;
     }
 
+    .contacts-list{
+        display: table-column;
+    }
+
     .js-close-menu{
      display: none;
     }
@@ -772,6 +787,19 @@ flex-direction: column;
 
 @media (max-width: 1199px) {
     .doing-team-h2 {
+        display: none;
+    }
+
+    .about-item h3{
+        font-size: 36px;
+        margin-bottom: 8px;
+    }
+    
+    .about-item p{
+        /* margin-top: 0; */
+    }
+    
+    .about-icon{
         display: none;
     }
 }
@@ -846,6 +874,8 @@ flex-direction: column;
         color: var(--NAVY-BLUE);
         margin-bottom: 40px;
         display: inline-block;
+        font-size: 36px;
+        color: var(--OCEAN);
     }
 
 
@@ -863,35 +893,25 @@ flex-direction: column;
         color: var(--OCEAN);
     }
 
-    .mobile-link-2:hover,
-    .mobile-contact:hover {
-        color: var(--OCEAN);
-        font-size: 36px;
-
-    }
 
     .mobile-team-socials{
         display: flex;
         gap: 28px;
         align-items: center;
         justify-content: flex-start;
-        
-        
+        margin-left: 40px;
         /* padding: 36px; */
-
     }
-
-
     
 
 .doing-team-h2 {
     display: none;
 }
 
-.about-item h3{
+/* .about-item h3{
     font-size: 36px;
     margin-bottom: 8px;
-}
+} */
 
 .about-item p{
     /* margin-top: 0; */
