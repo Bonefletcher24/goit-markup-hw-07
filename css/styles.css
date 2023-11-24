@@ -896,7 +896,7 @@ flex-direction: column;
 
     .mobile-team-socials{
         display: flex;
-        gap: 28px;
+        gap: 50px;
         align-items: center;
         justify-content: flex-start;
         margin-left: 40px;
