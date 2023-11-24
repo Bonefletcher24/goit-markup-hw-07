@@ -75,7 +75,7 @@ font-family: 'Roboto', sans-serif;
     flex-direction: column;
     /* justify-content: space-between; */
      margin-bottom: auto;
-    gap: 100px;
+    gap: 20px;
     align-items: flex-start;
 }
 
