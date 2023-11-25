@@ -220,9 +220,9 @@ header nav a:focus {
 .modal-close-btn{
     border-radius: 100%;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    background-color: white;
-    width: 25px;
-    height: 25px;
+    /* background-color: white; */
+    width: 22px;
+    height: 22px;
     color: var(--OCEAN);
     margin-left: auto;
     display: block;
@@ -237,9 +237,8 @@ header nav a:focus {
 .js-close-menu {
     border-radius: 100%;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    background-color: white;
-    width: 25px;
-    height: 25px;
+    width: 22px;
+    height: 22px;
     color: var(--OCEAN);
     margin-left: auto;
     display: block;
