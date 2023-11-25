@@ -6,6 +6,15 @@
     --SLATE: #434455;
     --OCEAN: #404BBF;
     --WHITE: #FFFFFF;
+    --CORNFLOWER: #E7E9FC;
+}
+
+header {
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    border-left: none;
+    border-right: none;
+    background: var(--WHITE, #FFF);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
 body {
@@ -208,7 +217,23 @@ header nav a:focus {
     pointer-events: none;
     opacity: 0;
 }
-.modal-close-btn,
+.modal-close-btn{
+    border-radius: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    color: var(--OCEAN);
+    margin-left: auto;
+    display: block;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
 .js-close-menu {
     border-radius: 100%;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -224,9 +249,9 @@ header nav a:focus {
     align-items: center;
     justify-content: center;
     position: absolute;
-    right: 30px;
-    
+    right: 30px;    
 }
+
 .modal-close-btn:hover,
 .js-close-menu:hover {
     fill: currentColor;
@@ -962,12 +987,16 @@ line-height: 1.11;
 }
 
 
-
 /* PORTFOLIO */
+
 .all-buttons {
-text-align: center;
 display: flex;
-justify-content: space-between;
+justify-content: center;
+flex-wrap: wrap;
+gap: 24px;
+margin-bottom: 72px;
+margin-top: 100px;
+align-items: flex-start;
 }
 
 
@@ -984,56 +1013,67 @@ div button:hover{
   }
 
 .all {
-    color: var(--IRIS, #4D5AE5);
+    color: var(--IRIS, #4D5AE5); 
+    border: 1px solid var(--CORNFLOWER, #E7E9FC); 
+    border-radius: 4px;
+    background: var(--CLOUD, #F4F4FD);
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.64px;
     padding: 12px 24px;
-    
 }
+
 .web-site {
-    color: var(--IRIS, #4D5AE5);
+    color: var(--IRIS, #4D5AE5); 
+    border: 1px solid var(--CORNFLOWER, #E7E9FC); 
+    border-radius: 4px;
+    background: var(--CLOUD, #F4F4FD);
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.64px;
     padding: 12px 24px;
-
 }
+
 .app{
-    color: var(--IRIS, #4D5AE5);
-    font-family: Roboto;
+    color: var(--IRIS, #4D5AE5); 
+    border: 1px solid var(--CORNFLOWER, #E7E9FC); 
+    border-radius: 4px;
+    background: var(--CLOUD, #F4F4FD);
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.64px;
     padding: 12px 24px;
-
 }
+
 .design{
-    color: var(--IRIS, #4D5AE5);
-    font-family: Roboto;
+    color: var(--IRIS, #4D5AE5); 
+    border: 1px solid var(--CORNFLOWER, #E7E9FC); 
+    border-radius: 4px;
+    background: var(--CLOUD, #F4F4FD);
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.64px;
     padding: 12px 24px;
-
 }
+
 .marketing{
-    color: var(--IRIS, #4D5AE5);
-    font-family: Roboto;
+    color: var(--IRIS, #4D5AE5); 
+    border: 1px solid var(--CORNFLOWER, #E7E9FC); 
+    border-radius: 4px;
+    background: var(--CLOUD, #F4F4FD);
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.64px;
     padding: 12px 24px;
+}
 
+.portfolio-margin{
+    margin-bottom: 120px;
 }
 
 .project:hover .project-image-caption{

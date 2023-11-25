@@ -10,37 +10,53 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header class="logo-contacts container d-flex">
-        <!-- WEB LOGO-->
-    <div class="d-flex">
-        <a href="index.html" class="logo"><span>WEB</span>STUDIO</a>
-        <nav>
-            <ul class="header-list list">
-                <li><a href="index.html" rel="Studio">Studio</a></li>
-                <li><a href="portfolio.html" rel="Portfolio" class="active">Portfolio</a></li>
-                <li><a href="#">Contacts</a></li>
+    <header class="logo-contacts desktop-nav">
+        <div class="container header-container">
+            <!-- WEB LOGO-->
+        <div class="d-flex">
+            <a href="index.html" class="logo"><span>WEB</span>STUDIO</a>
+            <nav>
+                <ul class="header-list list">
+                    <li><a href="index.html" rel="Studio" class="active">Studio</a></li>
+                    <li><a href="portfolio.html" rel="Portfolio">Portfolio</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- CONTACTS -->
+            <ul class="contacts-list list">
+                <li>
+                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li>
+                    <a href="tel:+110001111111">+11(000) 111-11-11</a>
+                </li>
             </ul>
-        </nav>
-    </div>
-    <!-- CONTACTS -->
-        <ul class="contacts-list list">
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+110001111111">+11(000) 111-11-11</a></li>
-        </ul>
-</header>
+        </div>
+    </header>
+    
+    <header class="mobile-nav">
+        <div class="container mobile-container">
+            <a href="index.html" class="logo"><span>WEB</span>STUDIO</a>
+            <svg width="32" height="22" class="js-open-menu" aria-expanded="false"
+    aria-controls="mobile-menu">
+                <use href="images/icons.svg#hamburger"></use>
+            </svg>
+        </div>
+    </header>
 <main>
     <!-- BUTTONS -->
     <section>
         <div class="all-buttons d-flex">
-        <button class="all" type="button">All</button>
-        <button class="web-site" type="button">Web Site</button>
-        <button class="app" type="button">App</button>
-        <button class="design" type="button">Design</button>
-        <button class="marketing" type="button">Marketing</button>
+            <button class="all" type="button">All</button>
+            <button class="web-site" type="button">Web Site</button>
+            <button class="app" type="button">App</button>
+            <button class="design" type="button">Design</button>
+            <button class="marketing" type="button">Marketing</button>
         </div>
     </section>
     <!-- IMAGES -->
-    <section>
+    <section class="portfolio-margin">
         <ul class="team-list list d-flex flex-container">
             <li class="project">
                 <div class="project-image">
